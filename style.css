@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(153, 139, 153);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    border: 1px solid red;
+    padding: 1rem;
+    width: 90%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.video{
+    width: 100%;
+    height: 30%;
+    border: 1px solid blue;
+}
+video{
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+}
+.snap-btn{
+   width: 100%;
+   height: 20%;
+   background-color: antiquewhite;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+button{
+    display: block;
+    width: 15rem;
+    height: 5vh;
+    cursor: pointer;
+    border-radius: 10%;
+    background-color: rgb(48, 38, 161);
+    font-size: 1rem;
+    color: white;
+}
+button:hover{
+    background-color: rgb(92, 87, 155);  
+}
+.canvas{
+    width: 100%;
+    height: 30%;
+    border: 1px solid white;
+}
+canvas{
+    width: 100%;
+    height: 100%;
+}
+.table{
+    width: 100%;
+    height: auto;
+}
+table, td, th {
+    border: 1px solid black;
+  }
+table {
+    background-color: aliceblue;
+    border-collapse: collapse;
+    width: 100%;
+    height: auto;
+  }
+.row{
+    background-color: aquamarine;
+}
+
+.picture{
+    background-color: azure;
+}
+.fit-picture{
+    width:3rem;
+    height: 3rem;
+    object-fit: fill;
+}
+td:last-child{
+    cursor: pointer;
+}
